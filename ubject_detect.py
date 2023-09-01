@@ -18,6 +18,6 @@ for point in zip(*locate[::-1]):
 
 
 
-cv2.imshow("birds",image)
+cv2.imshow("name",image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
